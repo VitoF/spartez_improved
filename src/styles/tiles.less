@@ -117,7 +117,7 @@
             color: #fff;
             line-height: 17px;
             z-index: 1;
-            text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
         .tile_item_date{
             z-index: 1;
@@ -129,18 +129,19 @@
             padding: 0 16px;
             float: left;
             position: relative;
-            text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
             
         }
         .tile_item_votes{
             z-index: 1;
             color: rgba(255, 255, 255, 0.7);
-            position: relative;
-            float: right;
+            position: absolute;
+            bottom: 12px;
+            right: 0;
             padding: 0 0 0 16px;
             font-size: 12px;
             margin: 0 16px 0 0;
-            text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
             &:before{
                 content: ' ';
                 font-size: 0;
@@ -157,7 +158,7 @@
             &:after{
                 content: 'votes';
                 margin: 0 0 0 4px;
-                text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
             }}
     }
 }

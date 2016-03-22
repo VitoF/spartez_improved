@@ -6,7 +6,7 @@ This is an improved version of the test task and here you can find:
     - ECMAScript6 features
     - Readind data from JSON file
     - Page building on the client side
-    - Auto data sorting for "Newest" and "Most popular" tabs 
+    - Auto data sorting for "Newest" and "Most popular" tabs and drawing first six
     - and others...
     
 

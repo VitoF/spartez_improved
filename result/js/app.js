@@ -5,7 +5,6 @@ function $ (selector, el) {
 }
 function $$ (selector, el) {
      if (!el) {el = document;}
-//     return el.querySelectorAll(selector);
      return Array.prototype.slice.call(el.querySelectorAll(selector));
 }
 

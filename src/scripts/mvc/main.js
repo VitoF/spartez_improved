@@ -25,7 +25,7 @@ class MainApp {
         
         function removeClass(objArr, removableClass){
             objArr.forEach((obj)=>{
-                let newClass = obj.className.replace(removableClass,'');
+                let newClass = obj.className.replace(' '+removableClass,'');
                 obj.className = newClass;
             });
         }
@@ -44,6 +44,10 @@ class MainApp {
                 addClass($$('#'+this.mainId+' .component_tabs_header_item[data-tab="'+dataTab+'"]'), 'active');
                 makeRunner();
             });
+        });
+        
+        window.addEventListener('resize',(e)=>{
+            makeRunner();
         });
     }
     newest(){
