@@ -1,9 +1,14 @@
-This is a simplest version of the test task and Here's no super features can be found, just HTML5 and CSS3 (LESS) and their own things.
-AND NO JAVASCRIPT!
+This is an improved version of the test task and here you can find:
+    - ECMAScript6 features
+    - Readind data from JSON file
+    - Page building on the client side
+    - Auto data sorting for "Newest" and "Most popular" tabs 
+    
 
-But anyway, I used Gulp to build it and gulp server plugin to see it.
+Here I used Gulp to build it and gulp server plugin to see it.
 
-So, all you need is write down in command line: <npm install> - you need node and npm installed;
+All you need is write down in command line: <npm install> - you need node and npm installed;
                                                 <gulp>
+Or run some Apache with "result" dir as root dir.
                                                 
-It uses port :1209 (localhost:1209)
+It uses port :1209 (localhost:1209) if you run it with gulp.

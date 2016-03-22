@@ -56,7 +56,7 @@ gulp.task('default', ['clean','connect'], function(){
     gulp.watch(paths.src.images, ['images']);
     gulp.watch(paths.src.jsApp, ['jsApp']);
     gulp.watch(paths.src.jsClasses, ['jsClasses']);
-    gulp.watch(paths.src.jsClasses, ['dataJSON']);
+    gulp.watch(paths.src.dataJSON, ['dataJSON']);
 });
 
 

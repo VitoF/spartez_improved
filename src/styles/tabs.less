@@ -5,6 +5,7 @@
     .component_tabs_header{
         margin: 0;
         padding: 0;
+        position: relative;
         .component_tabs_header_item{
             display: inline-block;
             list-style: 0;
@@ -50,9 +51,16 @@
             top: 48px;
             left: 0;
             background-color: rgba(17, 142, 71, 0.8);
+            transition: left .5s;
         }
         @media (max-width: 619px){
             display: none;
+        }
+    }
+    .component_tabs_content{
+        display: none;
+        &.active{
+            display: block;
         }
     }
 }

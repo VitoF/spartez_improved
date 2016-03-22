@@ -7,6 +7,7 @@ This is an improved version of the test task and here you can find:
     - Readind data from JSON file
     - Page building on the client side
     - Auto data sorting for "Newest" and "Most popular" tabs 
+    - and others...
     
 
 Here I used Gulp to build it and gulp server plugin to see it.
